@@ -8,9 +8,9 @@
         <body style="background-color:rgb(139, 208, 248);">
         <h1>My First Website</h1>
         <h1>Will this heading be the same size?</h1>
-        <h2>Will this heading be a differnt size?</h2>
-        <h2>another title with some more word and stuff</h2>
-        <h3>H3 TITLE</h3>
+        <p1>I made the Audi picure clickable, not just that, but different parts of the picture contain diffrent links.<br>
+        There are three different links, the car is a link to the audi r8 on audi's website,<br>
+        the showroom takes you to the main page of audi's website and the sin takes you to a picture of an audi showroom</p1>
         <h1>I will make a template for this site when I finish going through the tedious code that formats/creates text and links</h1>
         <button onclick="document.location='my coding plan.html'">More info</button>
         <p2><a href="#audistore1">Jump to Audi picture</a></p2>
@@ -28,14 +28,23 @@
     <br><br>
     <p4>Clickable Images! The Windows 11 flower is a test of diplaying content that are stored on the website itself</p4>
     <br>
+    <map name="microsoft">
+        <area shape="rect" coords="100,0,280,80" alt="microsoft" href="https://en.wikipedia.org/wiki/Microsoft" target="_blank">
+        <area shape="rect" coords="0,0,100,80" alt="microsoft" href="https://www.microsoft.com/en-gb/windows/" target="_blank">
+    </map>
+    <map name="audistore1">
+        <area shape="poly" coords="269,271,251,273,230,280,223,285,222,302,248,308,269,308,278,314,291,314,300,306,380,302,388,308,400,308,411,293,411,282,407,272,402,269,391,267,348,254,335,252,316,252,396,256" alt="audi r8" href="https://www.audi.co.uk/uk/web/en/models/r8/r8-coupe.html" target="_blank">
+        <area shape="poly" coords="4,26,0,59,0,82,39,90,18,292,33,292,52,92,88,99,90,95,94,49" alt="audi sign" href="https://cka-dash.s3.amazonaws.com/105-0619-AP850/mainimage.jpg" target="_blank">
+        <area shape="poly" coords="229,209,229,240,236,240,234,278,640,315,640,108" alt="audi showroom" href="https://www.audi.co.uk/uk/web/en.html" target="_blank">
+    </map>
     <img src="/images/arrow/Black-Fast-Forward-Button-PNG-Clipart-180x180.png" alt="black arrow" style="width:130;height:80px;">
        <a href="https://www.microsoft.com/en-gb" target="_blank"><img src="/images/microsoft/microsoft.gif" alt="microsoft gif link" style="width:130px;height:80px;"></a>
-       <a href="https://www.microsoft.com/en-gb/surface" target="_blank"><img src="/images/microsoft/Microsoft-Logo-Animated.gif" alt="microsoft gif link" style="width:210px;height:80px;"></a>
+       <a href="https://www.microsoft.com/en-gb/surface" target="_blank"><img src="/images/microsoft/Microsoft-Logo-Animated.gif" alt="microsoft gif link" usemap="#microsoft" style="width:210px;height:80px;"></a>
        <img src="/images/microsoft/w11 flower.png" alt="windows 11 picture" style="width:210px;height:80px;">
        <img src="/images/microsoft/MFS 2020.png" alt="MS Flight Simulator" style="width:210px;height:80px;">
        <br>
        <p>This is <b>BOLD</b> <strong>BOLD</strong> <strong>STRONG</strong> <STRONG>STRONG</STRONG> <em>em</em> <i>em</i> <i>italic</i> <em>italic</em> </p>
-           <img src="https://www.mm2x.com/images/MM2/1a6dba10ba5c8b6.jpg" width="640" height="400" alt="Audi store" id="audistore1">
+           <img src="https://www.mm2x.com/images/MM2/1a6dba10ba5c8b6.jpg" width="640" height="400" alt="Audi store" usemap="#audistore1" id="audistore1">
        </body>
    </head>
 </html>
