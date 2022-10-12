@@ -1,0 +1,23 @@
+.main1 {
+  color: #D5D5D5;
+  background-color: #414141;
+  padding: 10px;
+  /*float: left;*/
+  width: 10%; /* The width is 20%, by default */
+}
+
+.main2 {
+  color: #D5D5D5;
+  background-color: #414141;
+  padding: 20px;
+  /*float: left;*/
+  width: 60%; /* The width is 60%, by default */
+}
+
+.main3 {
+  color: #D5D5D5;
+  background-color: #414141;
+  padding: 20px;
+  /*float: left;*/
+  width: 20%; /* The width is 20%, by default */
+}
