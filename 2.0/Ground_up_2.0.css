@@ -88,3 +88,21 @@ body {
 	flex: 1;
 	/* You can adjust other styles for .img1 as needed */
 }
+
+/*New Code phone screen view fix test*/
+
+/* Media query for smaller screens (adjust the max-width as needed) */
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+
+    .text1 {
+        margin: 0; /* Remove right margin to stack text and image vertically */
+    }
+
+    .img1 {
+        margin-top: 20px; /* Add margin to separate text and image vertically */
+    }
+}
