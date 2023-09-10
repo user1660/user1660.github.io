@@ -1,0 +1,89 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.whitespace {
+	padding-top:10vh;
+	/*padding:20px;*/
+}
+
+.heading1 {
+	text-align:center;
+	color:white;
+	font-family:'Arial';
+	background-color:dodgerblue;
+	padding:20px;
+	margin:auto;
+}
+
+.heading2 {
+	text-align: center;
+	font-family: 'Arial';
+	padding: 20px;
+	margin: auto;
+}
+
+.par1 {
+	text-align:center;
+	width:40%;
+	margin:auto;
+}
+
+.book {
+	font-family:Arial;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 15px 25px;
+	border-radius: 30px;
+	background-color: dodgerblue;
+	margin: auto;
+	width: fit-content;
+}
+
+.parent-container {
+	/* Assuming .parent-container is the parent of .container */
+	display: flex;
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	height: 50vh; /* Adjust the height as needed, ensures full viewport height */
+}
+
+.container {
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center; /* Center horizontally */
+	text-align: center;
+}
+
+.text1 {
+	margin-right:50px;
+	width: 30%;
+	flex:1;
+	/* You can adjust other styles for .text1 as needed */
+}
+
+.img1 {
+	margin-left:50px;
+	width: 20%;
+	height: auto;
+	flex:1;
+	/* You can adjust other styles for .img1 as needed */
+}
+
+.text2 {
+	margin-left: 50px;
+	width: 30%;
+	flex: 1;
+	/* You can adjust other styles for .text1 as needed */
+}
+
+.img2 {
+	margin-right: 50px;
+	width: 20%;
+	height: auto;
+	flex: 1;
+	/* You can adjust other styles for .img1 as needed */
+}
