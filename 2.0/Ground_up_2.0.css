@@ -88,3 +88,29 @@ body {
 	flex: 1;
 	/* You can adjust other styles for .img1 as needed */
 }
+
+/* Default styles for larger screens */
+.container {
+    width: 80%; /* Default container width for larger screens */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line on small screens */
+}
+
+.text1,
+.img1,
+.text2,
+.img2 {
+    flex: 1;
+    max-width: 100% !important; /* Ensure elements don't exceed container width */
+    margin: 10px !important; /* Add spacing between elements */
+}
+
+/* Media query for smaller screens (adjust the max-width as needed) */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90% !important; /* Adjust the container width for smaller screens */
+    }
+}
