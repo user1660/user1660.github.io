@@ -62,7 +62,7 @@ body {
 .text1 {
 	margin-right:50px;
 	width: 30%;
-	flex:1;
+	/*flex:1;*/
 	/* You can adjust other styles for .text1 as needed */
 }
 
@@ -70,14 +70,14 @@ body {
 	margin-left:50px;
 	width: 20%;
 	height: auto;
-	flex:1;
+	/*flex:1;*/
 	/* You can adjust other styles for .img1 as needed */
 }
 
 .text2 {
 	margin-left: 50px;
 	width: 30%;
-	flex: 1;
+	/*flex: 1;*/
 	/* You can adjust other styles for .text1 as needed */
 }
 
@@ -85,7 +85,7 @@ body {
 	margin-right: 50px;
 	width: 20%;
 	height: auto;
-	flex: 1;
+	/*flex: 1;*/
 	/* You can adjust other styles for .img1 as needed */
 }
 
