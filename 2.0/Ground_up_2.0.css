@@ -94,7 +94,7 @@ body {
     .text1,
     .text2 {
         font-size: 16px; /* Adjust the font size for smaller screens */
-        width: 100%; /* Allow text to occupy full width on smaller screens */
+        width: 100% !important; /* Allow text to occupy full width on smaller screens */
         text-align: center; /* Center text on smaller screens */
     }
 }
