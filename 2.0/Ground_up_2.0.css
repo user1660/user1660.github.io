@@ -100,7 +100,7 @@ body {
 }
 
 /* Media query for smaller screens (adjust the max-width as needed) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .par1,
     .container {
         width: 90%; /* Adjust the container width for smaller screens */
