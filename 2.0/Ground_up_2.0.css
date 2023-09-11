@@ -88,14 +88,3 @@ body {
 	flex: 1;
 	/* You can adjust other styles for .img1 as needed */
 }
-
-/* Media query for smaller screens (adjust the max-width as needed) */
-@media screen and (max-width: 100%) {
-    .container
-    .text1,
-    .text2 {
-        font-size: 16px; /* Adjust the font size for smaller screens */
-        width: 100% !important; /* Allow text to occupy full width on smaller screens */
-        text-align: center; /* Center text on smaller screens */
-    }
-}
