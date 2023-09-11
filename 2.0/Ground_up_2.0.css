@@ -90,7 +90,7 @@ body {
 }
 
 /* Media query for smaller screens (adjust the max-width as needed) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100%) {
     .container
     .text1,
     .text2 {
