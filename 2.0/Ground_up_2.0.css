@@ -42,6 +42,35 @@ body {
 	width: fit-content;
 }
 
+.book:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  font-style: italic;
+  font-size: x-small;
+}
+.book:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  font-style: italic;
+  font-size: x-small;
+}
+.book:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: x-small;
+}
+.book:active {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: x-small;
+}
+
 .parent-container {
 	/* Assuming .parent-container is the parent of .container */
 	display: flex;
