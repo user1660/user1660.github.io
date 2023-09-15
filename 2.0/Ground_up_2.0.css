@@ -44,18 +44,22 @@ body {
 
 .book:link {
   color: rgb(255, 255, 255);
+  text-align: center;
   text-decoration: none;
 }
 .book:visited {
   color: rgb(255, 255, 255);
+  text-align: center;
   text-decoration: none;
 }
 .book:hover {
   color: rgb(255, 255, 255);
+  text-align: center;
   text-decoration: underline;
 }
 .book:active {
   color: rgb(255, 255, 255);
+  text-align: center;
   text-decoration: underline;
 }
 
